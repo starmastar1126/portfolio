@@ -1,6 +1,7 @@
 :root {
     --primary-color: rgb(255, 255, 255);
     --secondary-color: rgb(191, 191, 179);
+    --third-color: #0099FF;
     --action-color: #ff014f;
 
     --transition: 0.4s;
@@ -131,7 +132,7 @@ b {
     padding-bottom: 20px;
     font-size: 18px;
     font-weight: 700;
-    color: var(--secondary-color);
+    color: var(--third-color);
     /* line-height: 35px; */
 }
 
