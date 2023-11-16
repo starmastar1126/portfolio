@@ -7,7 +7,7 @@ export const data = [
         status: 'On-Going Project',
         title: 'Flock(Feeling Management)',
         type: 'React Native(Android/iOS) Mobile Application',
-        avatar: 'avatar/jennifer.jpeg',
+        avatar: 'avatar/jennifer.png',
         client: '<b>Jennifer Wilson</b> (USA): Teacher of Kalani High School(Hawaii)',
         role: 'React Native, Backend(API) Developer',
         technology: '<b>React Native</b>, Redux, Hook, Saga, React Chart,\nFirebase Firestore Database, Firebase Could Function,\nGoogle Map Api Integration, <b>GPS Tracking</b>, Google Analytics',
@@ -71,7 +71,8 @@ export const data = [
         status: '',
         title: 'Qalorie(Calorie Measurement)',
         type: 'Node(ExpressJS)/MongoDB/AWS(S3 Buckets)',
-        client: '<b>Agnes Gonzales</b> (Puerto Rico): CEO at Qalorie, Inc.',
+        // avatar: 'avatar/morales1.jpeg',
+        client: '<b>Alexandra Morales</b> (Puerto Rico): Marketing Manager at Qalorie, Inc.',
         role: 'Project Manager, Web, Mobile, Backend(API) Developer',
         technology: '<b>Node(ExpressJS)</b>, MongoDB(Database), Database Design,\nAWS S3 Buckets, SendGrid, Stripe Subscription',
         icons: [
