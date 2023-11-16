@@ -38,6 +38,7 @@ export const data = [
         status: 'Project Completed Successfully',
         title: 'Qalorie(Calorie Measurement)',
         type: 'React/React Native(Android/iOS) Web, Mobile Application',
+        avatar: 'avatar/rafael.png',
         client: '<b>Rafael Rivera</b> (Puerto Rico): CEO at Qalorie, Inc.',
         role: 'Project Manager, Web, Mobile, Backend(API) Developer',
         technology: '<b>React Native</b>, Redux, Hook, Saga,\nNode.js(Backend), MongoDB(Database), AWS S3 Buckets,\nSocial Authentication(Facebook, Apple, Google, Email) using Firebase,\nVideo & Voice Call using <b>CometChat platform</b>, Live Chat,\nPush Noticiation, Google Analytics, Appsflyer Integration,\nSocial Media Feature(Multiple Image, Videos Posting and Comment, Like, User Following),\nPayment Gateway Integration(PayPal, Stripe)\nPublishing on AppStore, PlayStore',
@@ -71,8 +72,8 @@ export const data = [
         status: '',
         title: 'Qalorie(Calorie Measurement)',
         type: 'Node(ExpressJS)/MongoDB/AWS(S3 Buckets)',
-        // avatar: 'avatar/morales1.jpeg',
-        client: '<b>Alexandra Morales</b> (Puerto Rico): Marketing Manager at Qalorie, Inc.',
+        avatar: 'avatar/rafael.png',
+        client: '<b>Rafael Rivera</b> (Puerto Rico): CEO at Qalorie, Inc.',
         role: 'Project Manager, Web, Mobile, Backend(API) Developer',
         technology: '<b>Node(ExpressJS)</b>, MongoDB(Database), Database Design,\nAWS S3 Buckets, SendGrid, Stripe Subscription',
         icons: [
