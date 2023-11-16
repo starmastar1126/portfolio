@@ -64,6 +64,13 @@ b {
     color: var(--action-color);
 }
 
+.content .item .company-info img {
+    width: auto;
+    height: 64px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
 .content .item .company-info .company-date {
     font-size: 18px;
     color: var(--primary-color);
@@ -141,6 +148,40 @@ b {
 .work-technology {
     font-weight: bold;
     color: var(--action-color);
+}
+
+.content .item .work-container .work-info .work-avatar-container {
+    display: flex;
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+.content .item .work-container .work-info .work-avatar {
+    width: auto;
+    height: 64px;
+    margin-right: 16px;
+    border-radius: 8px;
+}
+
+.content .item .work-container .work-info .client-content {
+    color: var(--secondary-color);
+    white-space: pre-line;
+    margin-top: -4px;
+}
+
+.work-icons {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.work-icons img {
+    width: auto;
+    height: 36px;
+    margin: 0 6px;
+    border-radius: 8px;
+    /* object-fit: cover; */
 }
 
 .content .item .work-container .work-info .work-content {

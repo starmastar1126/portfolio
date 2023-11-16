@@ -22,7 +22,7 @@ const ImageSlider = ({ images }) => {
                         <div className='image-container'>
                             <img
                                 className='image'
-                                src={`${process.env.PUBLIC_URL}/assets/image/${image.src}`}
+                                src={`${process.env.PUBLIC_URL}/assets/images/${image.src}`}
                             />
                         </div>
                     </Carousel.Item>
