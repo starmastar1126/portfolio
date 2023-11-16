@@ -170,6 +170,20 @@ b {
     margin-top: -4px;
 }
 
+.content .item .work-container .work-info .client-review {
+    margin-left: 12px;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.content .item .work-container .work-info .client-review p {
+    font-style: italic;
+    font-family: 'Syne', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: var(--secondary-color);
+}
+
 .work-icons {
     display: flex;
     align-items: center;

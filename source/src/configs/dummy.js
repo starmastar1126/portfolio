@@ -9,6 +9,10 @@ export const data = [
         type: 'React Native(Android/iOS) Mobile Application',
         avatar: 'avatar/jennifer.png',
         client: '<b>Jennifer Wilson</b> (USA): Teacher of Kalani High School(Hawaii)',
+        review: {
+            rating: 5,
+            recommendation: "&emsp;\"I highly recommend Silas!! He is in constant communication with me. He has had to make many many changes for me and he does so easily. I showed him pictures of what I wanted and he can make anything that you give to him. Due to the language difference, I learned that he takes things literal, and once I figured that out and was able to be more clear about what I wanted he showed up perfect. I am very impressed with all the things that he has be able to do, from counting people, to maps, to analytics, and in a short amount of time. I will be working with him again on my next project!! I trust him and you won't be sorry. He is a hard worker and will figure out anything that you need.\""
+        },
         role: 'React Native, Backend(API) Developer',
         technology: '<b>React Native</b>, Redux, Hook, Saga, React Chart,\nFirebase Firestore Database, Firebase Could Function,\nGoogle Map Api Integration, <b>GPS Tracking</b>, Google Analytics',
         icons: [
@@ -40,6 +44,10 @@ export const data = [
         type: 'React/React Native(Android/iOS) Web, Mobile Application',
         avatar: 'avatar/rafael.png',
         client: '<b>Rafael Rivera</b> (Puerto Rico): CEO at Qalorie, Inc.',
+        review: {
+            rating: 5,
+            recommendation: "&emsp;\"I had the pleasure of working with Silas on our recent our project, and the experience exceeded our expectations in every way. From start to finish, Silas demonstrated a high level of professionalism, technical expertise, and commitment to delivering a top-notch product.\""
+        },
         role: 'Project Manager, Web, Mobile, Backend(API) Developer',
         technology: '<b>React Native</b>, Redux, Hook, Saga,\nNode.js(Backend), MongoDB(Database), AWS S3 Buckets,\nSocial Authentication(Facebook, Apple, Google, Email) using Firebase,\nVideo & Voice Call using <b>CometChat platform</b>, Live Chat,\nPush Noticiation, Google Analytics, Appsflyer Integration,\nSocial Media Feature(Multiple Image, Videos Posting and Comment, Like, User Following),\nPayment Gateway Integration(PayPal, Stripe)\nPublishing on AppStore, PlayStore',
         icons: [
@@ -106,6 +114,10 @@ export const data = [
         type: 'React Native(Android/iOS) Mobile Application',
         avatar: 'avatar/eleftheria1.jpg',
         client: '<b>Eleftheria Panagiotopoulou</b> (United Kingdom): CEO & Founder at Borw, Lecturer at Oxford Business College & Greenwich University, Sustainable Fashion Addict',
+        review: {
+            rating: 5,
+            recommendation: "&emsp;\"Communication with Silas was seamless. They kept us informed about project progress, promptly addressed any queries or concerns, and actively sought feedback at every stage. This transparent and collaborative approach fostered a positive working relationship and ensured that the final product aligned perfectly with our expectations.\""
+        },
         role: 'Mobile Application Developer',
         technology: '<b>React Native</b>, Redux,\nFirebase Realtime Database, Firebase Cloud Function,\nSocial Authentication(Facebook, Apple, Google, Email) using Firebase,\nSocial Media Feature(Multiple Products Posting and Comment, Like, User Following),\n<b>Payment Gateway Integration</b>(PayPal, Bank Authorization),\nMulti-Language Implement(RTL/LTR) using i18n, Localization',
         icons: [
@@ -175,6 +187,10 @@ export const data = [
         type: 'React Native(Expo) Mobile Application',
         avatar: 'avatar/rabia.jpeg',
         client: '<b>Rabia Abu Hanna</b> (Israel): Software Development Team Lead at Amdocs',
+        review: {
+            rating: 4,
+            recommendation: "&emsp;\"From a technical perspective, Silas demonstrated a mastery of React Native. The codebase was clean, well-organized, and optimized for performance. Their expertise significantly contributed to the app's smooth functionality and responsiveness.\""
+        },
         role: 'React Native Developer',
         technology: '<b>React Native(Expo)</b>, Redux,\nFirebase Firestore, Database, Firebase Cloud Function,\nScheduling using Calendar, Unity Video Embeding,\nMulti-Language Implement(<b>RTL/LTR</b>) using i18n, Localization,\nSynchronizing with Bluetooth Watch(Apple Watch, Samsung Watch),\nFirebase Authentication, OAuth, or JWT(JSON Web Tokens),\nDark & Light Theme',
         icons: [
@@ -350,7 +366,7 @@ export const data = [
             'dat.png',
             'java.png',
             'springboot.png',
-        ],images: [
+        ], images: [
             { src: 'howuz/1.png' },
             { src: 'howuz/2.png' },
         ],

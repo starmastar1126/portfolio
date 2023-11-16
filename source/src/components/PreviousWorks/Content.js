@@ -1,4 +1,5 @@
 import ImageSlider from './ImageSlider';
+import StarRating from '../StarRating';
 
 const Content = ({ data }) => {
     return (
@@ -23,6 +24,11 @@ const Content = ({ data }) => {
                             <div className='work-avatar-container'>
                                 {item.avatar && <img alt='avatar' className='work-avatar' src={`${process.env.PUBLIC_URL}/assets/images/${item.avatar}`} />}
                                 <div className='client-content' dangerouslySetInnerHTML={{ __html: item.client }} />
+                            </div>
+
+                            <div className='client-review'>
+                                <StarRating rating={item.review?.rating} />
+                                <p dangerouslySetInnerHTML={{ __html: item.review?.recommendation }} />
                             </div>
 
                             <div className='work-client'>{`- Role`}</div>
