@@ -158,10 +158,11 @@ b {
 }
 
 .content .item .work-container .work-info .work-avatar {
-    width: auto;
+    width: 64px;
     height: 64px;
     margin-right: 16px;
     border-radius: 8px;
+    border: 3px solid yellow;
 }
 
 .content .item .work-container .work-info .client-content {
@@ -206,6 +207,12 @@ b {
     white-space: pre-line;
 }
 
+.content .item .work-container .work-info .work-banner {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
 .content .item .work-container .work-info .work-other {
     color: var(--secondary-color);
     line-height: 1.5;
@@ -215,7 +222,8 @@ b {
 
 .image-slider * {
     padding-bottom: 12px;
-    border-radius: 10px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
 
 .image-slider .image-container {
@@ -226,6 +234,10 @@ b {
     width: 100%;
     height: 400px;
     object-fit: cover;
+}
+
+.image-slider .image:hover {
+    cursor: pointer;
 }
 
 .button-group {

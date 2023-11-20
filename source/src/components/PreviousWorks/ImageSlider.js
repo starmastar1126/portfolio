@@ -23,6 +23,7 @@ const ImageSlider = ({ images }) => {
                             <img
                                 className='image'
                                 src={`${process.env.PUBLIC_URL}/assets/images/${image.src}`}
+                                onClick={() => window.open(`${process.env.PUBLIC_URL}/assets/images/${image.src}`, '_blank')}
                             />
                         </div>
                     </Carousel.Item>

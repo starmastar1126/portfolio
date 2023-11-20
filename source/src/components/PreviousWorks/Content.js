@@ -43,6 +43,7 @@ const Content = ({ data }) => {
                                 }
                             </div>
                             <div className='work-content' dangerouslySetInnerHTML={{ __html: item.technology }} />
+                            <img className='work-banner' src={`${process.env.PUBLIC_URL}/assets/images/banner.png`} />
                             <ImageSlider images={item.images} />
                             <div className='button-group'>
                                 {item.appstore !== '' && <button className='button' onClick={() => window.open(item.appstore, '_blank')}><img className='button-icon' src={`${process.env.PUBLIC_URL}/assets/images/appstore.png`} /></button>}

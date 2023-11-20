@@ -8,7 +8,7 @@ export const data = [
         title: 'Flock(Feeling Management)',
         type: 'React Native(Android/iOS) Mobile Application',
         avatar: 'avatar/jennifer.png',
-        client: '<b>Jennifer Wilson</b> (USA): Teacher of Kalani High School(Hawaii)',
+        client: '<b>Jennifer Wilson</b> (United States)\nTeacher of Kalani High School(Hawaii)',
         review: {
             rating: 5,
             recommendation: "&emsp;\"I highly recommend Silas!! He is in constant communication with me. He has had to make many many changes for me and he does so easily. I showed him pictures of what I wanted and he can make anything that you give to him. Due to the language difference, I learned that he takes things literal, and once I figured that out and was able to be more clear about what I wanted he showed up perfect. I am very impressed with all the things that he has be able to do, from counting people, to maps, to analytics, and in a short amount of time. I will be working with him again on my next project!! I trust him and you won't be sorry. He is a hard worker and will figure out anything that you need.\""
@@ -43,7 +43,7 @@ export const data = [
         title: 'Qalorie(Calorie Measurement)',
         type: 'React/React Native(Android/iOS) Web, Mobile Application',
         avatar: 'avatar/rafael.png',
-        client: '<b>Rafael Rivera</b> (Puerto Rico): CEO at Qalorie, Inc.',
+        client: '<b>Rafael Rivera</b> (Puerto Rico)\nCEO at Qalorie, Inc.',
         review: {
             rating: 5,
             recommendation: "&emsp;\"I had the pleasure of working with Silas on our recent our project, and the experience exceeded our expectations in every way. From start to finish, Silas demonstrated a high level of professionalism, technical expertise, and commitment to delivering a top-notch product.\""
@@ -79,11 +79,11 @@ export const data = [
         date: '',
         status: '',
         title: 'Qalorie(Calorie Measurement)',
-        type: 'Node(ExpressJS)/MongoDB/AWS(S3 Buckets)',
+        type: 'Node(Express.js)/MongoDB/AWS(S3 Buckets)',
         avatar: 'avatar/rafael.png',
-        client: '<b>Rafael Rivera</b> (Puerto Rico): CEO at Qalorie, Inc.',
+        client: '<b>Rafael Rivera</b> (Puerto Rico)\nCEO at Qalorie, Inc.',
         role: 'Project Manager, Web, Mobile, Backend(API) Developer',
-        technology: '<b>Node(ExpressJS)</b>, MongoDB(Database), Database Design,\nAWS S3 Buckets, SendGrid, Stripe Subscription',
+        technology: '<b>Node(Express.js)</b>, MongoDB(Database), Database Design,\nAWS S3 Buckets, SendGrid, Stripe Subscription',
         icons: [
             'node.png',
             'express.png',
@@ -105,6 +105,40 @@ export const data = [
         other: '',
     },
     {
+        category: 'web',
+        company: 'Club Mexicana',
+        logo: 'company/club_mexicana.png',
+        date: 'Sep, 2021 – Jul, 2022',
+        status: 'Project Completed Successfully',
+        title: 'ClubMexicana(Party Booking)',
+        type: 'React(Next.js)/Node(Express.js) Website',
+        avatar: 'avatar/meriel_armitage.png',
+        client: '<b>Meriel Armitage</b> (United Kingdom)\nFounder & Director of Club Mexicana',
+        review: {
+            rating: 5,
+            recommendation: "&emsp;\"Silas brought a wealth of expertise to the table. Their deep understanding of current web development trends and technologies ensured that our website was not only visually appealing but also functionally robust. They provided innovative solutions to challenges and implemented cutting-edge features that set our site apart.\""
+        },
+        role: 'Full-Stack Developer',
+        technology: '<b>React(Next.js)</b>, Typescript, <b>Node.js(Express.js)/MongoDB</b>, DigitalOcean, Google Analytics,',
+        icons: [
+            'react.png',
+            'next.png',
+            'typescript.png',
+            'node.png',
+            'mongodb.png'
+        ],
+        images: [
+            { src: 'clubmexicana/1.png' },
+            { src: 'clubmexicana/2.png' },
+            { src: 'clubmexicana/3.png' },
+        ],
+        appstore: '',
+        playstore: '',
+        youtube: '',
+        website: 'https://www.clubmexicana.com/',
+        other: '',
+    },
+    {
         category: 'mobile',
         company: 'Borw, Ltd.',
         logo: 'company/borw.webp',
@@ -113,7 +147,7 @@ export const data = [
         title: 'Borw(Circular Fashion, Buy & Sell)',
         type: 'React Native(Android/iOS) Mobile Application',
         avatar: 'avatar/eleftheria1.jpg',
-        client: '<b>Eleftheria Panagiotopoulou</b> (United Kingdom): CEO & Founder at Borw, Lecturer at Oxford Business College & Greenwich University, Sustainable Fashion Addict',
+        client: '<b>Eleftheria Panagiotopoulou</b> (United Kingdom)\nCEO & Founder at Borw, Lecturer at Oxford Business College & Greenwich University, Sustainable Fashion Addict',
         review: {
             rating: 5,
             recommendation: "&emsp;\"Communication with Silas was seamless. They kept us informed about project progress, promptly addressed any queries or concerns, and actively sought feedback at every stage. This transparent and collaborative approach fostered a positive working relationship and ensured that the final product aligned perfectly with our expectations.\""
@@ -151,7 +185,7 @@ export const data = [
         title: 'Moonpig(Personalized Cards Online)',
         type: 'React & Android/iOS Web & Mobile Application',
         avatar: 'avatar/peter_donlon.webp',
-        client: '<b>Peter Donlon</b> (United Kingdom): CTO at Moonpig',
+        client: '<b>Peter Donlon</b> (United Kingdom)\nCTO at Moonpig',
         role: 'Frontend(Web & Mobile) Developer',
         technology: '<b>React(Next.js)</b>, Styled-Components, Typescript, Node.js, Redux, Apollo, GraphQL, AWS, Google Analytics, Google Ads,\nPayment Gateway Integration, <b>Android(Java)</b>, <b>iOS(Swift)</b>',
         icons: [
@@ -186,7 +220,7 @@ export const data = [
         title: 'GoFit(Fitness, Gym & Workout)',
         type: 'React Native(Expo) Mobile Application',
         avatar: 'avatar/rabia.jpeg',
-        client: '<b>Rabia Abu Hanna</b> (Israel): Software Development Team Lead at Amdocs',
+        client: '<b>Rabia Abu Hanna</b> (Israel)\nSoftware Development Team Lead at Amdocs',
         review: {
             rating: 4,
             recommendation: "&emsp;\"From a technical perspective, Silas demonstrated a mastery of React Native. The codebase was clean, well-organized, and optimized for performance. Their expertise significantly contributed to the app's smooth functionality and responsiveness.\""
@@ -222,7 +256,7 @@ export const data = [
         title: 'HappyCow(Find Vegan Restaurants)',
         type: 'PHP(Laravel)/MySQL/Nginx',
         avatar: 'avatar/paulo_bing.png',
-        client: '<b>Paulo Bing</b> (Brazil): Software Engineer of HappyCow',
+        client: '<b>Paulo Bing</b> (Brazil)\nSoftware Engineer of HappyCow',
         role: 'Backend(PHP/MySQL) Developer',
         technology: '<b>PHP(Laravel)/MySQL</b>, Tailwind CSS, Nginx, Google Tag Manager, Wordpress, SEO',
         icons: [
@@ -255,7 +289,7 @@ export const data = [
         title: 'HouseSigma/Brokier(Real Estates)',
         type: 'React(Next)/React Native(Expo)/PHP(Laravel)/MySQL',
         avatar: 'avatar/amir.webp',
-        client: '<b>Amirghassemi Benhnam</b> (Canada): CTO at Crave Retail, Inc.',
+        client: '<b>Amirghassemi Benhnam</b> (Canada)\nCTO at Crave Retail, Inc.',
         role: 'Project Manager, Full Stack Developer',
         technology: '<b>React Native(Expo)</b>, Redux, PHP, Laravel, MySQL,\nThird Party Api Integration using Axios,\nGoogle Analytics Implement\n(Libraries: react-native-firebase/analytics)',
         icons: [
@@ -289,7 +323,7 @@ export const data = [
         title: 'FoodNet(Restaurant, Food Delivery, Recipe)',
         type: 'React Native/Ionic(Angular)',
         avatar: 'avatar/hossain.png',
-        client: '<b>Iqbal Hossain</b> (Romania): COO at Romanian Food & Beverage, Ltd.',
+        client: '<b>Iqbal Hossain</b> (Romania)\nCOO at Romanian Food & Beverage, Ltd.',
         role: 'Frontend(Mobile Application) Developer',
         technology: '<b>React Native</b>, Redux, Hooks, Typescript,\n<b>Third Party Api Integration for Food Recipe & Ingredients</b>,\nPush Notification using Firebase Cloud Messaging\n&emsp;(Libraries: react-native-firebase/messaging),\nMulti-Language, Multi-Payment Gateway Integration\n&emsp;(Libraries: i18n, react-localization, @stripe/stripe-react-native,\n&emsp;react-native-paypal)',
         icons: [
@@ -324,7 +358,7 @@ export const data = [
         title: 'Paksa/Noon(Online Shopping)',
         type: 'React Native(Android/iOS) Mobile Application',
         avatar: 'avatar/khawaja.jpeg',
-        client: '<b>Khawaja Minhal Hassan</b> (Pakistan): CEO at Technovier, Inc.',
+        client: '<b>Khawaja Minhal Hassan</b> (Pakistan)\nCEO at Technovier, Inc.',
         role: 'Project Team Leader, Frontend Developer',
         technology: '<b>React Native</b>, Redux, Hooks, Python(Django), PostgreSQL,\nPush Notification using Firebase Cloud Messaging,\n<b>Multi-Language, Multi-Payment Gateway Integration</b>,\nProducts, Collection Management, Shopify API Integration using Axios.',
         icons: [
@@ -350,6 +384,47 @@ export const data = [
         other: '* Design: XD',
     },
     {
+        category: 'web',
+        company: 'CoLife, Inc',
+        logo: 'company/colife.png',
+        date: 'Aug, 2020 – Apr, 2021',
+        status: 'Project Completed Successfully',
+        title: 'CoLife(Rent Private Room)',
+        type: 'Vue(Nuxt)/Node(Express.js)/MongoDB',
+        avatar: 'avatar/tom_maszk.png',
+        client: '<b>Tom Maszk</b> (United States)\nCTO of CoLife, Inc',
+        review: {
+            rating: 5,
+            recommendation: "&emsp;\"Silas possesses a solid grasp of Vue.js fundamentals. They effectively leveraged Vue components, directives, and lifecycle hooks to create modular and reusable code structures.\""
+        },
+        role: 'Full-Stack Developer',
+        technology: '<b>Vue(Nuxt.js)</b>, Node(Express.js), MongoDB,\nGoogle Analytics, Google Tag Manager',
+        icons: [
+            'vue.png',
+            'nuxt.png',
+            'node.png',
+            'express.png',
+            'mongodb.png',
+        ],
+        images: [
+            { src: 'colife/1.png' },
+            { src: 'colife/6.png' },
+            { src: 'colife/2.png' },
+            { src: 'colife/7.png' },
+            { src: 'colife/3.png' },
+            { src: 'colife/8.png' },
+            { src: 'colife/4.png' },
+            { src: 'colife/9.png' },
+            { src: 'colife/5.png' },
+            { src: 'colife/10.png' },
+        ],
+        appstore: '',
+        playstore: '',
+        youtube: '',
+        website: 'https://www.letscolife.com/',
+        other: '',
+    },
+    {
         category: 'mobile',
         company: 'Hitasoft Technology Solutions P.ltd.',
         logo: 'company/hitasoft.jpg',
@@ -358,7 +433,7 @@ export const data = [
         title: 'Howuz(Online Dating)',
         type: 'Fultter(Android/iOS) Mobile Application',
         avatar: 'avatar/raja.jpeg',
-        client: '<b>Raja Hussain</b> (India): CTO at Hitasoft Technology Solutions P.ltd.',
+        client: '<b>Raja Hussain</b> (India)\nCTO at Hitasoft Technology Solutions P.ltd.',
         role: 'Frontend Developer',
         technology: '<b>Fultter</b>, DAT, Java(Spring Boot), Video & Voice Call,\nPush Notification using Firebase Cloud Messaging',
         icons: [
@@ -375,5 +450,35 @@ export const data = [
         youtube: '',
         website: '',
         other: '* Design: Figma',
+    },
+    {
+        category: 'web',
+        company: 'iSono Health, Inc',
+        logo: 'company/isono_health.png',
+        date: 'May, 2018 – Jul, 2018',
+        status: 'Project Completed Successfully',
+        title: 'iSono Health(Say hello to atusa)',
+        type: 'Wordpress Website',
+        avatar: 'avatar/shadi_saberi.jpeg',
+        client: '<b>Shadi Saberi</b> (United States)\nFounder, CTO of iSono Health, Inc',
+        review: {
+            rating: 5,
+            recommendation: "&emsp;\"He demonstrated a commitment to deadlines and delivered the final product on time. This reliability allowed us to launch our website according to our planned schedule, contributing to the overall success of our online presence.\""
+        },
+        role: 'Full-Stack Developer',
+        technology: '<b>PHP(Wordpress)</b>, Vercel',
+        icons: [
+            'php.png',
+            'wordpress.png',
+        ],
+        images: [
+            { src: 'isonohealth/1.png' },
+            { src: 'isonohealth/2.png' },
+        ],
+        appstore: '',
+        playstore: '',
+        youtube: '',
+        website: 'https://isonohealth.com/',
+        other: '',
     },
 ];
