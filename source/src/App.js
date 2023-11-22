@@ -1,5 +1,6 @@
 import PreviousWorks from './components/PreviousWorks';
 import { data } from './configs/dummy';
+// import { data } from './configs/soumya';
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';

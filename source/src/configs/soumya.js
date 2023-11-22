@@ -16,7 +16,7 @@ export const data = [
         client: '<b>Jennifer Wilson</b> (United States)\nTeacher of Kalani High School(Hawaii)',
         review: {
             rating: 5,
-            recommendation: "&emsp;\"I highly recommend Silas!! He is in constant communication with me. He has had to make many many changes for me and he does so easily. I showed him pictures of what I wanted and he can make anything that you give to him. Due to the language difference, I learned that he takes things literal, and once I figured that out and was able to be more clear about what I wanted he showed up perfect. I am very impressed with all the things that he has be able to do, from counting people, to maps, to analytics, and in a short amount of time. I will be working with him again on my next project!! I trust him and you won't be sorry. He is a hard worker and will figure out anything that you need.\""
+            recommendation: "&emsp;\"I highly recommend Soumya!! He is in constant communication with me. He has had to make many many changes for me and he does so easily. I showed him pictures of what I wanted and he can make anything that you give to him. Due to the language difference, I learned that he takes things literal, and once I figured that out and was able to be more clear about what I wanted he showed up perfect. I am very impressed with all the things that he has be able to do, from counting people, to maps, to analytics, and in a short amount of time. I will be working with him again on my next project!! I trust him and you won't be sorry. He is a hard worker and will figure out anything that you need.\""
         },
         role: 'React Native, Backend(API) Developer',
         icons: [
@@ -38,7 +38,7 @@ export const data = [
         playstore: '',
         youtube: '',
         website: '',
-        github: 'https://github.com/starmastar1126/Flock_ReactNative:private'
+        github: ''
     },
     {
         category: 'mobile',
@@ -59,7 +59,7 @@ export const data = [
         client: '<b>Rafael Rivera</b> (Puerto Rico)\nCEO at Qalorie, Inc.',
         review: {
             rating: 5,
-            recommendation: "&emsp;\"I had the pleasure of working with Silas on our recent our project, and the experience exceeded our expectations in every way. From start to finish, Silas demonstrated a high level of professionalism, technical expertise, and commitment to delivering a top-notch product.\""
+            recommendation: "&emsp;\"I had the pleasure of working with Soumya on our recent our project, and the experience exceeded our expectations in every way. From start to finish, Soumya demonstrated a high level of professionalism, technical expertise, and commitment to delivering a top-notch product.\""
         },
         role: 'Project Manager, Web, Mobile, Backend(API) Developer',
         icons: [
@@ -85,7 +85,7 @@ export const data = [
         playstore: 'https://play.google.com/store/apps/details?id=com.qalorieapp&hl=en_US',
         youtube: 'https://youtu.be/mUx_bmXiUgs',
         website: 'https://qalorie.com',
-        github: 'https://github.com/orgs/starqalorie1126/repositories:private'
+        github: ''
     },
     {
         category: 'backend',
@@ -124,7 +124,7 @@ export const data = [
         playstore: '',
         youtube: '',
         website: '',
-        github: 'https://github.com/orgs/starqalorie1126/repositories:private'
+        github: ''
     },
     {
         category: 'backend',
@@ -186,7 +186,7 @@ export const data = [
         client: '<b>Meriel Armitage</b> (United Kingdom)\nFounder & Director of Club Mexicana',
         review: {
             rating: 5,
-            recommendation: "&emsp;\"Silas brought a wealth of expertise to the table. Their deep understanding of current web development trends and technologies ensured that our website was not only visually appealing but also functionally robust. They provided innovative solutions to challenges and implemented cutting-edge features that set our site apart.\""
+            recommendation: "&emsp;\"Soumya brought a wealth of expertise to the table. Their deep understanding of current web development trends and technologies ensured that our website was not only visually appealing but also functionally robust. They provided innovative solutions to challenges and implemented cutting-edge features that set our site apart.\""
         },
         role: 'Full-Stack Developer',
         icons: [
@@ -226,7 +226,7 @@ export const data = [
         client: '<b>Eleftheria Panagiotopoulou</b> (United Kingdom)\nCEO & Founder at Borw, Lecturer at Oxford Business College & Greenwich University, Sustainable Fashion Addict',
         review: {
             rating: 5,
-            recommendation: "&emsp;\"Communication with Silas was seamless. They kept us informed about project progress, promptly addressed any queries or concerns, and actively sought feedback at every stage. This transparent and collaborative approach fostered a positive working relationship and ensured that the final product aligned perfectly with our expectations.\""
+            recommendation: "&emsp;\"Communication with Soumya was seamless. They kept us informed about project progress, promptly addressed any queries or concerns, and actively sought feedback at every stage. This transparent and collaborative approach fostered a positive working relationship and ensured that the final product aligned perfectly with our expectations.\""
         },
         role: 'Mobile Application Developer',
         icons: [
@@ -251,7 +251,7 @@ export const data = [
         playstore: 'https://play.google.com/store/apps/details?id=com.borw',
         youtube: 'https://youtu.be/zFQFFhuZhcY',
         website: 'https://borw.app',
-        github: 'https://github.com/starmastar1126/BorwFashion_ReactNative:private'
+        github: ''
     },
     {
         category: 'web',
@@ -314,7 +314,7 @@ export const data = [
         client: '<b>Rabia Abu Hanna</b> (Israel)\nSoftware Development Team Lead at Amdocs',
         review: {
             rating: 4,
-            recommendation: "&emsp;\"From a technical perspective, Silas demonstrated a mastery of React Native. The codebase was clean, well-organized, and optimized for performance. Their expertise significantly contributed to the app's smooth functionality and responsiveness.\""
+            recommendation: "&emsp;\"From a technical perspective, Soumya demonstrated a mastery of React Native. The codebase was clean, well-organized, and optimized for performance. Their expertise significantly contributed to the app's smooth functionality and responsiveness.\""
         },
         role: 'React Native Developer',
         icons: [
@@ -337,7 +337,7 @@ export const data = [
         playstore: 'https://play.google.com/store/apps/details?id=com.m4pmedia.gofit_walking',
         youtube: 'https://youtu.be/JS75-G-qFIs',
         website: '',
-        github: 'https://github.com/starmastar1126/GoFitness_Expo:private'
+        github: ''
     },
     {
         category: 'web',
@@ -423,7 +423,7 @@ export const data = [
         playstore: 'https://play.google.com/store/apps/details?id=com.housesigma.android&hl=en_US&gl=US',
         youtube: 'https://youtu.be/lz95cwVvB5I',
         website: 'https://housesigma.com',
-        github: 'https://github.com/starmastar1126/Brokier_ReactNative/tree/brokier-app'
+        github: ''
     },
     {
         category: 'mobile',
@@ -462,7 +462,7 @@ export const data = [
         playstore: 'https://play.google.com/store/apps/details?id=com.scripps.android.foodnetwork&hl=en_US',
         youtube: 'https://youtu.be/XDGSIJ3WguM',
         website: '',
-        github: 'https://github.com/starmastar1126/Foodnet_ReactNative'
+        github: ''
     },
     {
         category: 'mobile',
@@ -502,7 +502,7 @@ export const data = [
         playstore: 'https://play.google.com/store/apps/details?id=com.noon.buyerapp&hl=en_US&gl=US',
         youtube: 'https://youtu.be/7zK89HbPaz4',
         website: '',
-        github: 'https://github.com/starmastar1126/Paksa_eCommerce_ReactNative'
+        github: ''
     },
     {
         category: 'web',
@@ -523,7 +523,7 @@ export const data = [
         client: '<b>Tom Maszk</b> (United States)\nCTO of CoLife, Inc',
         review: {
             rating: 5,
-            recommendation: "&emsp;\"Silas possesses a solid grasp of Vue.js fundamentals. They effectively leveraged Vue components, directives, and lifecycle hooks to create modular and reusable code structures.\""
+            recommendation: "&emsp;\"Soumya possesses a solid grasp of Vue.js fundamentals. They effectively leveraged Vue components, directives, and lifecycle hooks to create modular and reusable code structures.\""
         },
         role: 'Full-Stack Developer',
         icons: [
@@ -658,6 +658,6 @@ export const data = [
         playstore: '',
         youtube: '',
         website: 'https://devxconf.org/',
-        github: 'https://github.com/starmastar1126/DevXConf_ReactNext'
+        github: ''
     },
 ];
