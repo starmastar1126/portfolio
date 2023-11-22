@@ -18,6 +18,21 @@ const Content = ({ data }) => {
                         <span className='line'></span>
                         <div className='work-info'>
                             <div className='mark'><div className='in-mark' /></div>
+
+                            <div className='company-info desktop'>
+                                <div className='company-name'>{item.company}</div>
+
+                                <div className='company-description-container'>
+                                    {item.logo && <img alt='logo' src={`${process.env.PUBLIC_URL}/assets/icons/company/${item.logo}`} />}
+
+                                    <div className='company-description'>
+                                        <div className='company-date'>{item.date}</div>
+                                        <div className='company-status'>{item.status}</div>
+                                    </div>
+                                </div>
+                            </div>
+
+
                             <div className='work-title' dangerouslySetInnerHTML={{ __html: item.title }} />
                             <div className='work-type' dangerouslySetInnerHTML={{ __html: item.type }} />
                             <div className='work-client'>{`- Client`}</div>

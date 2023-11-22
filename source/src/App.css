@@ -57,6 +57,11 @@ b {
     flex-basis: 0;
 }
 
+.content .item .desktop {
+    display: none;
+    margin-bottom: 32px;
+}
+
 .content .item .company-info .company-name {
     padding-bottom: 12px;
     font-size: 28px;
@@ -134,12 +139,14 @@ b {
     font-weight: 600;
     color: var(--primary-color);
     line-height: 35px;
+    word-break: break-all;
 }
 
 .content .item .work-container .work-info .work-type {
     padding-bottom: 20px;
     font-size: 18px;
     font-weight: 700;
+    word-break: break-all;
     color: var(--third-color);
     /* line-height: 35px; */
 }
@@ -188,13 +195,15 @@ b {
 .work-icons {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     margin: 8px 0;
+    margin-left: 8px;
 }
 
 .work-icons img {
     width: auto;
     height: 36px;
-    margin: 0 6px;
+    margin: 6px;
     border-radius: 8px;
     /* object-fit: cover; */
 }
@@ -205,6 +214,7 @@ b {
     color: var(--secondary-color);
     line-height: 1.5;
     white-space: pre-line;
+    word-break: break-all;
 }
 
 .content .item .work-container .work-info .work-banner {
@@ -263,4 +273,67 @@ b {
 
 .button-group .button:hover {
     background: var(--action-color);
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 512px) {
+    .header {
+        font-size: 24px;
+        padding: 12px;
+        text-align: center;
+    }
+
+    .description {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .content .item .work-container .line {
+        margin-left: 24px;
+    }
+
+    .content .item .work-container .work-info {
+        position: relative;
+        padding: 0 24px;
+    }
+
+    .content .item .company-info {
+        display: none;
+    }
+
+    .content .item .desktop {
+        display: block;
+        margin-bottom: 16px;
+    }
+
+    .image-slider .image-container {
+        height: 160px;
+    }
+
+    .image-slider .image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .previous-works .track-container {
+        width: 100%;
+    }
+
+    .company-description-container {
+        display: flex;
+    }
+
+    .company-description {
+        margin-left: 16px;
+    }
+
+    .content .item .work-container .work-info .work-other {
+        color: var(--secondary-color);
+        line-height: 1.5;
+        white-space: pre-line;
+        padding-bottom: 20px;
+    }
 }

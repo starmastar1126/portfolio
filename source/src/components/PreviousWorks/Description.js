@@ -1,6 +1,6 @@
 const Description = ({ description }) => {
     return (
-        <div className='description'>{description}</div>
+        <div className='description' dangerouslySetInnerHTML={{ __html: description }} />
     )
 }
 
