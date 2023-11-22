@@ -5,7 +5,7 @@ import Content from './PreviousWorks/Content';
 const PreviousWorks = ({ title, description, data }) => {
     return (
         <div className='previous-works'>
-            <div className='track-container'>
+            <div className='container'>
                 <Header title={title} />
                 <Description description={description} />
                 <Content data={data} />

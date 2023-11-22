@@ -1,8 +1,10 @@
 :root {
     --primary-color: rgb(255, 255, 255);
     --secondary-color: rgb(191, 191, 179);
-    --third-color: #0099FF;
-    --action-color: #ff014f;
+    --blue-color: #0099FF;
+    --green-color: #009900;
+    --red-color: #ff014f;
+    --orange-color: #FF9D48;
 
     --transition: 0.4s;
     --background-color: linear-gradient(145deg, #1e2024, #23272b);
@@ -17,17 +19,17 @@
 
 b {
     font-weight: bold !important;
-    color: #009900;
+    color: var(--green-color);
 }
 
 .previous-works {
     display: flex;
     justify-content: center;
-    background: var(--background-color);
     margin-top: 50px;
+    background: var(--background-color);
 }
 
-.previous-works .track-container {
+.previous-works .container {
     width: 1024px;
 }
 
@@ -52,74 +54,74 @@ b {
     display: flex;
 }
 
-.content .item .company-info {
+.content .item .company {
     flex-grow: 1;
     flex-basis: 0;
 }
 
-.content .item .desktop {
+.content .item .mobile {
     display: none;
     margin-bottom: 32px;
 }
 
-.content .item .company-info .company-name {
+.content .item .company .name {
     padding-bottom: 12px;
     font-size: 28px;
     font-weight: 600;
-    color: var(--action-color);
+    color: var(--red-color);
 }
 
-.content .item .company-info img {
+.content .item .company img {
+    margin-bottom: 16px;
     width: auto;
     height: 64px;
     border-radius: 8px;
-    margin-bottom: 16px;
 }
 
-.content .item .company-info .company-date {
+.content .item .company .period {
     font-size: 18px;
     color: var(--primary-color);
     line-height: 1.5;
 }
 
-.content .item .company-info .company-status {
+.content .item .company .status {
     font-size: 16px;
     color: var(--secondary-color);
     line-height: 1.5;
 }
 
-.content .item .work-container {
+.content .item .work {
     display: flex;
     flex-grow: 2;
     flex-basis: 0;
 }
 
-.content .item .work-container .line {
+.content .item .work .line {
     width: 2px;
     display: inline-block;
-    background: var(--action-color);
+    background: var(--red-color);
 }
 
-.content .item:first-child .work-container .line {
+.content .item:first-child .work .line {
     margin-top: 8px;
 }
 
-.content .item .work-container .work-info {
+.content .item .work .data {
     position: relative;
-    padding: 0 50px;
+    padding: 0 40px;
 }
 
-.content .item .work-container .work-info .mark {
+.content .item .work .data .mark {
     position: absolute;
     left: -14px;
     top: 8px;
     padding: 12px;
-    border: 1px solid var(--action-color);
+    border: 1px solid var(--red-color);
     border-radius: 50%;
     background: var(--background-color);
 }
 
-.content .item .work-container .work-info .in-mark {
+.content .item .work .data .in-mark {
     position: absolute;
     left: 7px;
     top: 7px;
@@ -129,11 +131,11 @@ b {
     background: var(--background-color);
 }
 
-.content .item .work-container .work-info .in-mark:hover {
-    border-color: var(--action-color);
+.content .item .work .data .in-mark:hover {
+    border-color: var(--red-color);
 }
 
-.content .item .work-container .work-info .work-title {
+.content .item .work .data .title {
     padding-bottom: 10px;
     font-size: 28px;
     font-weight: 600;
@@ -142,29 +144,43 @@ b {
     word-break: break-all;
 }
 
-.content .item .work-container .work-info .work-type {
-    padding-bottom: 20px;
+.content .item .work .data .type {
     font-size: 18px;
     font-weight: 700;
     word-break: break-all;
-    color: var(--third-color);
-    /* line-height: 35px; */
+    color: var(--blue-color);
 }
 
-.content .item .work-container .work-info .work-client,
-.work-technology {
+.content .item .work .data .skills {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content .item .work .data .skills .skill {
+    margin: 4px 8px 4px 0;
+    padding: 2px 8px;
+    background-color: var(--blue-color);
+    color: var(--background-color);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.content .item .work .data .category {
+    margin-top: 16px;
     font-weight: bold;
-    color: var(--action-color);
+    color: var(--red-color);
 }
 
-.content .item .work-container .work-info .work-avatar-container {
+.content .item .work .data .client {
     display: flex;
     margin-left: 16px;
     margin-top: 12px;
     margin-bottom: 16px;
 }
 
-.content .item .work-container .work-info .work-avatar {
+.content .item .work .data .client .avatar {
     width: 64px;
     height: 64px;
     margin-right: 16px;
@@ -172,19 +188,19 @@ b {
     border: 3px solid yellow;
 }
 
-.content .item .work-container .work-info .client-content {
+.content .item .work .data .client .information {
+    margin-top: -4px;
     color: var(--secondary-color);
     white-space: pre-line;
-    margin-top: -4px;
 }
 
-.content .item .work-container .work-info .client-review {
+.content .item .work .data .review {
     margin-left: 12px;
     margin-bottom: 24px;
     color: white;
 }
 
-.content .item .work-container .work-info .client-review p {
+.content .item .work .data .review p {
     font-style: italic;
     font-family: 'Syne', sans-serif;
     font-size: 14px;
@@ -192,7 +208,24 @@ b {
     color: var(--secondary-color);
 }
 
-.work-icons {
+.content .item .work .data .detail {
+    padding-left: 15px;
+    /* padding-bottom: 24px; */
+    color: var(--secondary-color);
+    line-height: 1.5;
+    white-space: pre-line;
+    word-break: break-all;
+}
+
+.content .item .work .data .other {
+    margin-top: 16px;
+    padding-left: 15px;
+    color: var(--secondary-color);
+    line-height: 1.5;
+    white-space: pre-line;
+}
+
+.content .item .work .data .icons {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -200,7 +233,7 @@ b {
     margin-left: 8px;
 }
 
-.work-icons img {
+.content .item .work .data .icons img {
     width: auto;
     height: 36px;
     margin: 6px;
@@ -208,30 +241,14 @@ b {
     /* object-fit: cover; */
 }
 
-.content .item .work-container .work-info .work-content {
-    padding-left: 15px;
-    padding-bottom: 24px;
-    color: var(--secondary-color);
-    line-height: 1.5;
-    white-space: pre-line;
-    word-break: break-all;
-}
-
-.content .item .work-container .work-info .work-banner {
+.content .item .work .data .banner {
+    margin-top: 16px;
     width: 100%;
     height: auto;
     object-fit: contain;
 }
 
-.content .item .work-container .work-info .work-other {
-    color: var(--secondary-color);
-    line-height: 1.5;
-    white-space: pre-line;
-    padding-bottom: 50px;
-}
-
 .image-slider * {
-    padding-bottom: 12px;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
 }
@@ -242,7 +259,7 @@ b {
 
 .image-slider .image {
     width: 100%;
-    height: 400px;
+    height: 340px;
     object-fit: cover;
 }
 
@@ -250,12 +267,12 @@ b {
     cursor: pointer;
 }
 
-.button-group {
-    margin-bottom: 16px;
+.buttons {
+    margin: 0 0 32px 0;
     padding: 12px 0;
 }
 
-.button-group .button {
+.buttons .button {
     margin-right: 5px;
     width: 50px;
     height: 50px;
@@ -266,22 +283,20 @@ b {
     background: var(--background-color);
 }
 
-.button-group .button .button-icon {
+.buttons .button .icon {
     width: 20px;
     height: 20px;
 }
 
-.button-group .button:hover {
-    background: var(--action-color);
+.buttons .button:hover {
+    background: var(--red-color);
 }
-
 
 /* responsive */
 
 @media screen and (max-width: 512px) {
     .header {
-        font-size: 24px;
-        padding: 12px;
+        font-size: 30px;
         text-align: center;
     }
 
@@ -290,20 +305,20 @@ b {
         padding: 20px;
     }
 
-    .content .item .work-container .line {
+    .content .item .work .line {
         margin-left: 24px;
     }
 
-    .content .item .work-container .work-info {
+    .content .item .work .data {
         position: relative;
         padding: 0 24px;
     }
 
-    .content .item .company-info {
+    .content .item .company {
         display: none;
     }
 
-    .content .item .desktop {
+    .content .item .mobile {
         display: block;
         margin-bottom: 16px;
     }
@@ -318,19 +333,19 @@ b {
         object-fit: cover;
     }
 
-    .previous-works .track-container {
+    .previous-works .container {
         width: 100%;
     }
 
-    .company-description-container {
+    .wrapper {
         display: flex;
     }
 
-    .company-description {
+    .wrapper .detail {
         margin-left: 16px;
     }
 
-    .content .item .work-container .work-info .work-other {
+    .content .item .work .data .other {
         color: var(--secondary-color);
         line-height: 1.5;
         white-space: pre-line;
