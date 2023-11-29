@@ -639,7 +639,7 @@ export const data = [
             'Javascript'
         ],
         avatar: 'pauline_narvas.jpeg',
-        client: '<b>Pauline Narvas</b> (Philippines)\Community Leader of DevXConf.Org',
+        client: '<b>Pauline Narvas</b> (Philippines)\nCommunity Leader of DevXConf.Org',
         role: 'Front End Developer',
         icons: [
             'react.png',

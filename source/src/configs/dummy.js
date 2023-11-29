@@ -38,7 +38,8 @@ export const data = [
         playstore: '',
         youtube: '',
         website: '',
-        github: 'https://github.com/starmastar1126/Flock_ReactNative:private'
+        github: 'https://github.com/starmastar1126/Flock_ReactNative',
+        private: true
     },
     {
         category: 'mobile',
@@ -85,7 +86,8 @@ export const data = [
         playstore: 'https://play.google.com/store/apps/details?id=com.qalorieapp&hl=en_US',
         youtube: 'https://youtu.be/mUx_bmXiUgs',
         website: 'https://qalorie.com',
-        github: 'https://github.com/orgs/starqalorie1126/repositories:private'
+        github: 'https://github.com/orgs/starqalorie1126/repositories',
+        private: true
     },
     {
         category: 'backend',
@@ -124,7 +126,8 @@ export const data = [
         playstore: '',
         youtube: '',
         website: '',
-        github: 'https://github.com/orgs/starqalorie1126/repositories:private'
+        github: 'https://github.com/orgs/starqalorie1126/repositories',
+        private: true
     },
     {
         category: 'backend',
@@ -165,7 +168,8 @@ export const data = [
         playstore: '',
         youtube: '',
         website: 'https://customgpt.ai/',
-        github: ''
+        github: '',
+        private: false
     },
     {
         category: 'web',
@@ -207,7 +211,8 @@ export const data = [
         playstore: '',
         youtube: '',
         website: 'https://www.clubmexicana.com/',
-        github: ''
+        github: '',
+        private: false
     },
     {
         category: 'mobile',
@@ -251,7 +256,8 @@ export const data = [
         playstore: 'https://play.google.com/store/apps/details?id=com.borw',
         youtube: 'https://youtu.be/zFQFFhuZhcY',
         website: 'https://borw.app',
-        github: 'https://github.com/starmastar1126/BorwFashion_ReactNative:private'
+        github: 'https://github.com/starmastar1126/BorwFashion_ReactNative',
+        private: true
     },
     {
         category: 'web',
@@ -295,7 +301,8 @@ export const data = [
         playstore: 'https://play.google.com/store/apps/details?id=com.commonagency.moonpig.uk',
         youtube: '',
         website: 'https://www.moonpig.com/us/',
-        github: ''
+        github: '',
+        private: false
     },
     {
         category: 'mobile',
@@ -337,7 +344,8 @@ export const data = [
         playstore: 'https://play.google.com/store/apps/details?id=com.m4pmedia.gofit_walking',
         youtube: 'https://youtu.be/JS75-G-qFIs',
         website: '',
-        github: 'https://github.com/starmastar1126/GoFitness_Expo:private'
+        github: 'https://github.com/starmastar1126/GoFitness_Expo',
+        private: true
     },
     {
         category: 'web',
@@ -379,7 +387,8 @@ export const data = [
         playstore: 'https://play.google.com/store/apps/details?id=com.hcceg.veg.compassionfree&referrer=utm_source%3Dhappycow%26utm_campaign%3Dmobile_footer',
         youtube: '',
         website: 'https://www.happycow.net/',
-        github: ''
+        github: '',
+        private: false
     },
     {
         category: 'mobile',
@@ -423,7 +432,8 @@ export const data = [
         playstore: 'https://play.google.com/store/apps/details?id=com.housesigma.android&hl=en_US&gl=US',
         youtube: 'https://youtu.be/lz95cwVvB5I',
         website: 'https://housesigma.com',
-        github: 'https://github.com/starmastar1126/Brokier_ReactNative/tree/brokier-app'
+        github: 'https://github.com/starmastar1126/Brokier_ReactNative/tree/brokier-app',
+        private: false
     },
     {
         category: 'mobile',
@@ -462,7 +472,8 @@ export const data = [
         playstore: 'https://play.google.com/store/apps/details?id=com.scripps.android.foodnetwork&hl=en_US',
         youtube: 'https://youtu.be/XDGSIJ3WguM',
         website: '',
-        github: 'https://github.com/starmastar1126/Foodnet_ReactNative'
+        github: 'https://github.com/starmastar1126/Foodnet_ReactNative',
+        private: false
     },
     {
         category: 'mobile',
@@ -502,7 +513,8 @@ export const data = [
         playstore: 'https://play.google.com/store/apps/details?id=com.noon.buyerapp&hl=en_US&gl=US',
         youtube: 'https://youtu.be/7zK89HbPaz4',
         website: '',
-        github: 'https://github.com/starmastar1126/Paksa_eCommerce_ReactNative'
+        github: 'https://github.com/starmastar1126/Paksa_eCommerce_ReactNative',
+        private: false
     },
     {
         category: 'web',
@@ -551,7 +563,8 @@ export const data = [
         playstore: '',
         youtube: '',
         website: 'https://www.letscolife.com/',
-        github: ''
+        github: '',
+        private: false
     },
     {
         category: 'mobile',
@@ -585,7 +598,8 @@ export const data = [
         playstore: 'https://play.google.com/store/apps/details?id=com.hitasoft.app.howzu&hl=en_US&gl=US',
         youtube: '',
         website: '',
-        github: ''
+        github: '',
+        private: false
     },
     {
         category: 'web',
@@ -622,7 +636,8 @@ export const data = [
         playstore: '',
         youtube: '',
         website: 'https://isonohealth.com/',
-        github: ''
+        github: '',
+        private: false
     },
     {
         category: 'web',
@@ -639,7 +654,7 @@ export const data = [
             'Javascript'
         ],
         avatar: 'pauline_narvas.jpeg',
-        client: '<b>Pauline Narvas</b> (Philippines)\Community Leader of DevXConf.Org',
+        client: '<b>Pauline Narvas</b> (Philippines)\nCommunity Leader of DevXConf.Org',
         role: 'Front End Developer',
         icons: [
             'react.png',
@@ -658,6 +673,7 @@ export const data = [
         playstore: '',
         youtube: '',
         website: 'https://devxconf.org/',
-        github: 'https://github.com/starmastar1126/DevXConf_ReactNext'
+        github: 'https://github.com/starmastar1126/DevXConf_ReactNext',
+        private: false
     },
 ];

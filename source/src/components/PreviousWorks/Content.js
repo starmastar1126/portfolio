@@ -66,7 +66,7 @@ const Content = ({ data }) => {
                                 {item.playstore !== '' && <button className='button' onClick={() => window.open(item.playstore, '_blank')}><img className='icon' src={`${process.env.PUBLIC_URL}/assets/icons/software/playstore.png`} /></button>}
                                 {item.youtube !== '' && <button className='button' onClick={() => window.open(item.youtube, '_blank')}><img className='icon' src={`${process.env.PUBLIC_URL}/assets/icons/software/youtube.png`} /></button>}
                                 {item.website !== '' && <button className='button' onClick={() => window.open(item.website, '_blank')}><img className='icon' src={`${process.env.PUBLIC_URL}/assets/icons/software/website.png`} /></button>}
-                                {item.github !== '' && <button className='button' onClick={() => window.open(item.github, '_blank')}><img className='icon' src={`${process.env.PUBLIC_URL}/assets/icons/software/git.png`} /></button>}
+                                {item.github !== '' && <button className='button' onClick={() => {item.private ? alert("This repository is private.\nPlease contact to starmastar1126@gmail.com") : window.open(item.github, '_blank')}}><img className='icon' src={`${process.env.PUBLIC_URL}/assets/icons/software/git.png`} /></button>}
                             </div>
                         </div >
                     </div >
