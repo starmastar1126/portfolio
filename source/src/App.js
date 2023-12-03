@@ -5,6 +5,10 @@ import { data } from './configs/dummy';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-47X7RDBMNK');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 const App = () => {
     return (
         <PreviousWorks
