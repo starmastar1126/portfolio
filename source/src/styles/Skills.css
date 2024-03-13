@@ -1,0 +1,150 @@
+.profile-skills {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.profile-skills .container {
+    width: 1024px;
+}
+
+.profile-skills .container .header {
+    padding: 8px 0;
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.profile-skills .container .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 32px 0;
+}
+
+.profile-skills .container .content .item-container {
+    width: 25%;
+    max-width: 25%;
+    padding: 8px;
+}
+
+.profile-skills .container .content .item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+    width: 100%;
+    padding: 12px;
+    border: #7e7e7e 1px solid;
+    border-radius: 8px;
+    box-shadow: black 36px;
+    /* background-color: #545459; */
+    color: white;
+    transition: all .3s;
+}
+
+.profile-skills .container .content .item:hover {
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
+.profile-skills .container .content .item .image-container {
+    display: flex;
+    align-items: center;
+    width: 50px;
+}
+
+.profile-skills .container .content .item img {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.profile-skills .container .content .item .desc {
+    margin-left: 12px;
+    width: 100%;
+}
+
+.profile-skills .container .content .item .desc h5 {
+    color: var(--blue-color);
+}
+
+.profile-skills .container .content .item .desc .detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-skills .container .content .item .desc .detail .wrapper {
+    display: inline;
+    width: auto;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.profile-skills .container .content .item .desc .detail .frontend {
+    background-color: var(--violet-color);
+}
+
+.profile-skills .container .content .item .desc .detail .backend {
+    background-color: var(--pumpkin-color);
+}
+
+.profile-skills .container .content .item .desc .detail .mobile {
+    background-color: var(--forest-color);
+}
+
+.profile-skills .container .content .item .desc .detail .website {
+    background-color: var(--navy-color);
+}
+
+.profile-skills .container .content .item .desc .detail .database {
+    background-color: var(--brown-color);
+}
+
+.profile-skills .container .content .item .desc .detail .game {
+    background-color: var(--pink-color);
+}
+
+.profile-skills .container .content .item .desc .detail .tool {
+    background-color: var(--brown-color);
+}
+
+.profile-skills .container .content .item .desc .detail .other {
+    background-color: var(--other-color);
+}
+
+.profile-skills .container .content .item .desc .detail .design {
+    background-color: var(--design-color);
+}
+
+.profile-skills .container .content .item .desc .detail .experience {
+    display: inline;
+    margin-left: 5px;
+    width: auto;
+    background-color: var(--gray-color);
+    border-radius: 5px;
+    padding: 0 5px;
+    font-size: 12px;
+    color: var(--black-color)
+}
+
+/* responsive */
+
+@media screen and (max-width: 512px) {
+
+    .profile-skills .container {
+        width: 100%;
+    }
+
+    .profile-skills .container .header {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .profile-skills .container .content .item-container {
+        width: 100%;
+        max-width: 100%;
+    }
+}

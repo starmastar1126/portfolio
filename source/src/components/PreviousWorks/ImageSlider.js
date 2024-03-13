@@ -22,6 +22,7 @@ const ImageSlider = ({ images }) => {
                         <div className='image-container'>
                             <img
                                 className='image'
+                                alt={`src`}
                                 src={`${process.env.PUBLIC_URL}/assets/images/${image.src}`}
                                 onClick={() => window.open(`${process.env.PUBLIC_URL}/assets/images/${image.src}`, '_blank')}
                             />
