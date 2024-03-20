@@ -66,7 +66,7 @@ const Content = ({ data }) => {
                                 {item.playstore !== '' && <button className='button' onClick={() => window.open(item.playstore, '_blank')}><img className='icon' src={`${process.env.PUBLIC_URL}/assets/icons/software/playstore.png`} alt='playstore' /></button>}
                                 {item.youtube !== '' && <button className='button' onClick={() => window.open(item.youtube, '_blank')}><img className='icon' src={`${process.env.PUBLIC_URL}/assets/icons/software/youtube.png`} alt='youtube' /></button>}
                                 {item.website !== '' && <button className='button' onClick={() => window.open(item.website, '_blank')}><img className='icon' src={`${process.env.PUBLIC_URL}/assets/icons/software/website.png`} alt='website' /></button>}
-                                {item.github !== '' && <button className='button' onClick={() => { item.private ? alert("This repository is private.\nPlease contact to starmastar1126@gmail.com") : window.open(item.github, '_blank') }}><img className='icon' src={`${process.env.PUBLIC_URL}/assets/icons/software/git.png`} alt='git' /></button>}
+                                {item.github !== '' && <button className='button' onClick={() => { item.private ? alert("This repository is private.\nPlease contact to codecrafts1126@gmail.com") : window.open(item.github, '_blank') }}><img className='icon' src={`${process.env.PUBLIC_URL}/assets/icons/software/git.png`} alt='git' /></button>}
                             </div>
                         </div >
                     </div >
