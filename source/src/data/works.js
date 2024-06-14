@@ -39,7 +39,7 @@ export const works = [
         youtube: '',
         website: '',
         github: 'https://github.com/starmastar1126/Flock_ReactNative',
-        private: true
+        private: false
     },
     {
         category: 'mobile',
@@ -84,9 +84,9 @@ export const works = [
         ],
         appstore: 'https://apps.apple.com/us/app/qalorie/id1538149091',
         playstore: 'https://play.google.com/store/apps/details?id=com.qalorieapp&hl=en_US',
-        youtube: 'https://youtu.be/mUx_bmXiUgs',
+        youtube: 'https://vimeo.com/958081580',
         website: 'https://qalorie.com',
-        github: 'https://github.com/orgs/starqalorie1126/repositories',
+        github: 'https://github.com/orgs/starmastar1126/Qalorie_ReactNative',
         private: true
     },
     {
@@ -126,7 +126,7 @@ export const works = [
         playstore: '',
         youtube: '',
         website: '',
-        github: 'https://github.com/orgs/starqalorie1126/repositories',
+        github: 'https://github.com/orgs/starmastar1126/Qalorie_NodeExpress',
         private: true
     },
     {
@@ -254,10 +254,10 @@ export const works = [
         ],
         appstore: 'https://apps.apple.com/ca/app/borw/id1504578577',
         playstore: 'https://play.google.com/store/apps/details?id=com.borw',
-        youtube: 'https://youtu.be/zFQFFhuZhcY',
+        youtube: 'https://vimeo.com/958085312',
         website: 'https://borw.app',
         github: 'https://github.com/starmastar1126/BorwFashion_ReactNative',
-        private: true
+        private: false
     },
     {
         category: 'web',
@@ -342,10 +342,10 @@ export const works = [
         ],
         appstore: 'https://apps.apple.com/us/app/gofit-weight-loss-walking/id1460688355',
         playstore: 'https://play.google.com/store/apps/details?id=com.m4pmedia.gofit_walking',
-        youtube: 'https://youtu.be/JS75-G-qFIs',
+        youtube: 'https://vimeo.com/958115887',
         website: '',
         github: 'https://github.com/starmastar1126/GoFitness_Expo',
-        private: true
+        private: false
     },
     {
         category: 'web',
@@ -430,7 +430,7 @@ export const works = [
         ],
         appstore: 'https://apps.apple.com/ca/app/housesigma-canada-real-estate/id1255490256',
         playstore: 'https://play.google.com/store/apps/details?id=com.housesigma.android&hl=en_US&gl=US',
-        youtube: 'https://youtu.be/lz95cwVvB5I',
+        youtube: 'https://vimeo.com/958085780',
         website: 'https://housesigma.com',
         github: 'https://github.com/starmastar1126/Brokier_ReactNative/tree/brokier-app',
         private: false
@@ -470,7 +470,7 @@ export const works = [
         ],
         appstore: 'https://apps.apple.com/us/app/food-network-kitchen/id399072152',
         playstore: 'https://play.google.com/store/apps/details?id=com.scripps.android.foodnetwork&hl=en_US',
-        youtube: 'https://youtu.be/XDGSIJ3WguM',
+        youtube: 'https://vimeo.com/958085978',
         website: '',
         github: 'https://github.com/starmastar1126/Foodnet_ReactNative',
         private: false
@@ -511,7 +511,7 @@ export const works = [
         ],
         appstore: 'https://apps.apple.com/us/app/noon-shopping-%D9%86%D9%88%D9%86-%D9%84%D9%84%D8%AA%D8%B3%D9%88%D9%82/id1269038866',
         playstore: 'https://play.google.com/store/apps/details?id=com.noon.buyerapp&hl=en_US&gl=US',
-        youtube: 'https://youtu.be/7zK89HbPaz4',
+        youtube: 'https://vimeo.com/958086517',
         website: '',
         github: 'https://github.com/starmastar1126/Paksa_eCommerce_ReactNative',
         private: false
