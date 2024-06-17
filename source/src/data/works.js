@@ -432,7 +432,7 @@ export const works = [
         playstore: 'https://play.google.com/store/apps/details?id=com.housesigma.android&hl=en_US&gl=US',
         youtube: 'https://vimeo.com/958085780',
         website: 'https://housesigma.com',
-        github: 'https://github.com/starmastar1126/Brokier_ReactNative/tree/brokier-app',
+        github: 'https://github.com/starmastar1126/Brokier_ReactNative',
         private: false
     },
     {
